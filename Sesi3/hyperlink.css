@@ -1,0 +1,20 @@
+.link1 {
+    font-size: 20px;
+}
+
+.link2:hover {
+    color: red;
+    font-size: 20px;
+}
+
+.link3:link {
+    color: blue;
+}
+
+.link4:visited {
+    background: yellow;
+}
+
+.link5:active {
+    color: green;
+}
