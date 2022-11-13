@@ -1,0 +1,57 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    text-align: right;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgrey;
+    height: 25px;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+.navbar li {
+    list-style-type: none;
+    padding: 10px;
+    display: inline;
+}
+
+.navbar li a {
+    text-decoration: none;
+    width: 100px;
+    color: black;
+}
+
+.profile {
+    margin: 50px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    background-color: dimgrey;
+}
+
+.username {
+   font-family: Arial, Helvetica, sans-serif; 
+   text-transform: capitalize;
+}
+
+.form {
+    background-color: dimgrey;
+    margin: 50px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 200px;
+}
+
+@media(min-width:321px) {
+        .selector {
+            width: 400px;
+        }
+}
+
