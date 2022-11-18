@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mengenal Event Pada JS</title>
+    </head>
+
+    <body>
+        <h2>Mengenal Event Pada JS</h2>
+
+        <!--Memberikan event pada element tombol-->
+        <buttom onclick="tampilkan_nama()">KLIK SAYA</buttom>
+
+        <!--id hasil-->
+        <div id="hasil"></div>
+
+        <script>
+            // membuat function tampilkan_nama
+            function tampilkan_nama(){
+                document.getElementById("hasil").innerHTML = "<h3>Nama Saya adalah FOX</h3>";
+            }
+        </script>
+    </body>
+</html>
